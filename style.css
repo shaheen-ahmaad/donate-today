@@ -1,3 +1,204 @@
 body{
     margin: 0;
+    padding-top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.banner-area{
+    background-image: url(images/donation1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.banner-content{
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.banner-content h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+.banner-content p{
+    color: white;
+    font-size: 20px;
+}
+
+.global-btn{
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.donate-area{
+    background-color: white;
+}
+
+.donate-content{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.donate-content h1{
+    font-size: 50px;
+}
+
+.donate-content p{
+    font-size: 20px;
+}
+
+.amount-area{
+    display: flex;
+    text-align: center;
+    margin: 0px 250px;
+}
+
+.amount-content{
+    margin-left: 30px;
+    background-color: #FFEEEE;
+
+}
+
+.amount-content h1{
+    color: #4C3A51;
+    font-size: 40px;
+}
+
+#money-fixed{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.input-box{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.input-box hr{
+    width: 50%;
+}
+
+.donate-btn{
+    text-align: center;
+    margin-top: 50px
+}
+
+.donate-plan-area{
+    width: 100%;
+}
+
+.donate-card{
+    text-align: center;
+    width: 31%;
+    height: 300px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 20px;  
+    border: 2px solid #ddd; 
+}
+
+#family-card{
+    background-color: #EDF5F6;
+}
+
+#shelter-card{
+    background-color: pink;
+}
+
+#education-card{
+    background-color: #FFEEEE;
+}
+
+.donate-card img{
+    margin-top: 20px;
+}
+
+
+
+.contribute-content-one{
+    float: left;
+    margin: 150px 150px 0 150px;
+}
+
+.half-width{
+    width: 48%;
+    float: left;
+   
+}
+
+.half-width h1{
+    font-size: 50px;
+}
+
+.half-width p{
+    font-size: 20px;
+}
+
+.half-width img{
+    width: 100%;
+    height: 400px;
+}
+
+.contribute-content-two{
+    float: left;
+    margin: 150px 150px 0 150px;
+}
+
+#second-half{
+    margin-left: 30px;
+}
+
+
+.contact-content{
+    text-align: center;
+}
+
+.contact-content h1{
+    margin-top: 20px;
+}
+
+.contact-box{
+    margin-top: 70px;
+    width: 100%;
+    height: 200px;
+    background-color: #FFF4D6;
+    text-align: center;
+}
+
+.email-area input{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: -15px;
+}
+
+footer{
+    background: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+
+footer h1{
+    color: white;
+    font-size: 50px;
+
+}
+
+footer h5{
+    color: white;
+    font-size: 30px;
+    
 }
